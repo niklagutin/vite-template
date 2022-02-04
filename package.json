@@ -1,6 +1,8 @@
 {
-    "name": "vite-app",
+    "name": "vite-template",
     "version": "0.0.0",
+    "author": "Nikita Lagutin <lagutin.na@yandex.ru>",
+    "description": "Template for development with Vue 3 and Vite",
     "scripts": {
         "dev": "vite --open",
         "build": "vite build",
