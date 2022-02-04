@@ -1,0 +1,20 @@
+# Ignore all files (but still allow sub-folder scanning)
+/*
+!/src
+!/public
+
+# Allow certain file types
+!.html
+!*.js
+!*.json
+!*.md
+
+node_modules
+.DS_Store
+.idea
+.vscode
+dist
+*.local
+*.ico
+
+package-lock.json

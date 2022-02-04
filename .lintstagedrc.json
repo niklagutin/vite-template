@@ -1,0 +1,5 @@
+{
+    "*.{js,vue}": "npm run el:fix",
+    "**/*.{css,scss,vue}": "npm run sl:fix",
+    "*": "prettier --write"
+}
