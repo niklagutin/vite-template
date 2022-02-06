@@ -3,5 +3,11 @@
         "stylelint-config-standard-scss",
         "stylelint-config-recommended-vue/scss",
         "stylelint-config-prettier-scss"
-    ]
+    ],
+    "rules": {
+        "selector-no-vendor-prefix": true,
+        "declaration-no-important": true,
+        "block-closing-brace-newline-before": "always",
+        "block-opening-brace-newline-after": "always"
+    }
 }
